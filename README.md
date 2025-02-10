@@ -9,6 +9,8 @@ This is a small manual to install a RISCV simulator on your destop
   
   ```sh
   sudo apt-get update
+  
   sudo apt-get upgrade -y
+  
   sudo apt install docker
   ```
