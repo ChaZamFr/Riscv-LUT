@@ -117,6 +117,28 @@ This is a manual to install a RISCV simulator on your destop
     ./configure --prefix=/opt/riscv --with-arch=rv32gc --with-abi=ilp32d
     make linux 
     ```
+
+    Then check whether the gcc compiler is installed by entering the following command
+
+    ```sh
+    riscv32-unknown-elf-gcc --version
+    ```
+
+### 3. Simulate ibex processor
+
+- To simulate the ibex processor, change to ibex directory and follow the README file in the examples/simple_system directory. After installing the python requirements file, enter the following command to build the simulation of the ibex processor
+
+  
+    ```sh
+    fusesoc --cores-root=. run --target=sim --setup --build \
+        lowrisc:ibex:ibex_simple_system $(util/ibex_config.py opentitan fusesoc_opts)
+    ```
+
+
+    Then follow the steps of making and running the simulations in the examples/simple_system directory.
+  
+
+    
     
 
     
