@@ -5,7 +5,7 @@ This is a manual to install a RISCV simulator on your destop
 
 - Install Docker on your systems
 
-  For Linux, you need to enter the following command in the terminal
+  For Linux or WSL, you need to enter the following command in the terminal
   
   ```sh
   sudo apt-get update
@@ -17,8 +17,10 @@ This is a manual to install a RISCV simulator on your destop
 
 - Build Dockerfile
 
-  After installing the Docker, you need to clone this repo by entering this following command on you GitBash(Windows/mac) & Terminal(Linux)
+  After installing the Docker, you need to clone this repo by entering this following command on you GitBash(Windows/mac) & Terminal(Linux & WSL)
 
     ```sh
     git clone https://github.com/ChaZamFr/Riscv-LUT.git
     ```
+
+  Then enter into 
