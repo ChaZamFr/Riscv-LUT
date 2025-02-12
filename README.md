@@ -134,8 +134,7 @@ This is a manual to install a RISCV simulator on your destop
         lowrisc:ibex:ibex_simple_system $(util/ibex_config.py opentitan fusesoc_opts)
     ```
 
-
-    Then follow the steps of making and running the simulations in the examples/simple_system directory.
+- Then follow the steps of making and running the simulations in the examples/simple_system directory.
   
 
     
