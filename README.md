@@ -32,7 +32,7 @@ This is a manual to install a RISCV simulator on your destop
   Then you need to build the Dockerfile by running the following command
   
   ```sh
-  docker build buildenv -t risc-buildenv
+  docker build -t risc-buildenv .
   ```
 
   Then run the Dockerfile
