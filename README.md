@@ -115,7 +115,7 @@ This is a manual to install a RISCV simulator on your destop
 
     ```sh
     ./configure --prefix=/opt/riscv --with-arch=rv32gc --with-abi=ilp32d
-    make linux 
+    make -j$(nproc) 
     ```
 
     Then check whether the gcc compiler is installed by entering the following command
